@@ -1,0 +1,28 @@
+:PROPERTIES:
+:ID:       B90D0EA7-B3AC-45A2-8ABC-2097295957E0
+:END:
+#+hugo_base_dir: /tmp/docsy
+#+hugo_section: en/blog
+#+hugo_front_matter_format: yaml
+#+hugo_weight: auto
+#+hugo_auto_set_lastmode: t
+#+options: author:nil
+#+startup: inlineimages
+#+title: Dir Test
+
+* Dir Test
+  :PROPERTIES:
+  :EXPORT_HUGO_BUNDLE: dir-test
+  :EXPORT_FILE_NAME: index
+  :EXPORT_DATE: 2021-11-13
+  :END:
+
+  Bli bla and an image:
+
+  This will tell me to create a /static/ directory whereas it should be stored with the files on the blog post.
+
+  [[file:unsplash.pic]]
+
+  This gives me Unable to resolve link; aborting
+  
+  [[unsplash-pic.jpg]]
